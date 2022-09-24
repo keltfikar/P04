@@ -138,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .65);
 }
 
 .d-bloc .panel button:hover,
@@ -481,7 +481,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -513,6 +513,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+cite {
+    color: rgba(0, 0, 0, 0.65);
 }
 
 .scrollToTop {
@@ -663,7 +667,7 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
+.hero-bloc-text h1 {
     font-size: 38px;
 }
 
@@ -682,16 +686,17 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
+    font-size: 18px;
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -711,11 +716,12 @@ p {
 
 h2 {
     font-size: 22px;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
